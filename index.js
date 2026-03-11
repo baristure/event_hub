@@ -1,6 +1,6 @@
 /**
  * Azure Event Hub Protobuf Publisher
- * Topic: aws/device_history/device_telemetry/reported
+ * Topic: azure/device_history/device_telemetry/reported
  *
  * Publishes 300 protobuf-encoded DeviceTelemetry messages per minute
  * to an Azure Event Hub.
@@ -10,7 +10,7 @@
  *
  * Environment variables (set in .env):
  *   EVENTHUB_CONNECTION_STRING  - e.g. Endpoint=sb://xxx.servicebus.windows.net/;SharedAccessKeyName=xxx;SharedAccessKey=xxx
- *   EVENTHUB_NAME               - e.g. rcs-clearblade-hub01
+ *   EVENTHUB_NAME               - e.g. rcs-eventhub-hub01
  */
 
 "use strict";
